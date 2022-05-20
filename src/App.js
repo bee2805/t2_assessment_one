@@ -39,7 +39,7 @@ function App() {
           <form>
             <input name="petName" type="text" placeholder="Name of Pet" onChange={handleChange}/>
             <select name="species" onChange={handleChange}>
-              <option selected disabled hidden>Species of Pet</option>
+              <option>Species of Pet</option>
               <option>Canine</option>
               <option>Feline</option>
               <option>Equine</option>
@@ -48,7 +48,7 @@ function App() {
               <option>Reptile</option>
             </select>
             <select name="gender" onChange={handleChange}>
-              <option selected disabled hidden>Gender/Sex of Pet</option>
+              <option>Gender/Sex of Pet</option>
               <option>Male</option>
               <option>Female</option>
             </select>
